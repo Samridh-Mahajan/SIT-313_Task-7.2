@@ -1,0 +1,44 @@
+.custom-header {
+    background-color: #333; /* Change the background color */
+    color: #fff; /* Change the text color */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Apply styles to the navigation links */
+  .custom-header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .custom-header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .custom-header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Style the 'Sign In' button */
+  .custom-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .custom-button:active {
+    background-color: #003f80;
+    transform: translateY(2px);
+  }
+  
